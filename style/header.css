@@ -1,0 +1,67 @@
+header {
+	position: fixed;
+	height: 140px;
+	width: 100%;
+	background-color: #5FBDCE;
+	z-index: 1000;}
+
+.logo a {
+	padding: 20px;
+	display: inline-block;
+	width: 150px;
+	background-size: cover;
+	flex-grow: 1;
+}
+header .container {
+	height: 200px;
+	display: flex;
+}
+
+.menu {
+	display: inline-block;
+}
+.menu a{
+	flex-grow: 4;
+	border: 5px solid;
+	border-radius: 10px;
+	background-color: #8AB5FF;
+	font-size: 19px;
+	margin: 50px 0px;
+	display: inline-block;
+
+}
+.menu a:hover {
+	text-decoration: none;
+	background-color: #00225E;
+}
+.social-menu a {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	background-size: cover;
+	margin: 30px 10px;
+	flex-grow: 1;
+	border: 10px solid #00225E;
+	background-color: #00225E;
+	border-radius: 5px;
+}
+.social-menu a:nth-child(1) {
+	background-image: url(../image/instagram1.png);
+}
+.social-menu a:hover{
+	border: 10px solid #8EB7FF;	
+	border-radius: 10px; 
+	background-color: #8EB7FF;
+}
+.social-menu a:nth-child(2) {
+	background-image: url(../image/youtube1.png);
+}
+.social-menu a:nth-child(3) {
+	background-image: url(../image/diskord.png);
+}
+.vidstup {
+	height:130px;
+}
+.prob {
+	height: 50px;
+}
