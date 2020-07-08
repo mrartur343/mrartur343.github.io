@@ -1,0 +1,42 @@
+body {
+
+	max-height: 100%;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+	background: #d2ff52;
+background: -moz-radial-gradient(center, ellipse cover, #d2ff52 0%, #a5ef47 70%, #91e842 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #d2ff52), color-stop(70%, #a5ef47), color-stop(100%, #91e842));
+background: -webkit-radial-gradient(center, ellipse cover, #d2ff52 0%, #a5ef47 70%, #91e842 100%);
+background: -o-radial-gradient(center, ellipse cover, #d2ff52 0%, #a5ef47 70%, #91e842 100%);
+background: -ms-radial-gradient(center, ellipse cover, #d2ff52 0%, #a5ef47 70%, #91e842 100%);
+background: radial-gradient(ellipse at center, #d2ff52 0%, #a5ef47 70%, #91e842 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1 );
+}
+.big {
+	text-align: center;
+	font-size: 52px;
+}
+.ft {
+	font-size: 75px;
+	text-align: center;
+}
+h3 {
+	color: #2F0571;
+	border: 10px dotted #FFD040;
+}
+h1 {
+	border: 10px dashed #FFD040;
+	border-radius: 10px;
+	color: #2F0571;
+}
+p {
+
+	border: 5px dashed #FFD040;
+	border-radius: 10px;
+	color: #2F0571;
+	font-family: 'Balsamiq Sans', cursive;
+	text-align: center;
+	background-color: #FE7276;
+	font-size: 26px;
+}
