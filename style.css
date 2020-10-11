@@ -1,0 +1,31 @@
+h1 {
+	font-family: 'Balsamiq Sans', cursive;
+}
+.title {
+	text-align: center;
+	font-family: 'Balsamiq Sans', cursive;
+
+}
+p {
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 20px
+}
+body {
+	max-height: 100%;
+    max-width: 100%
+	background: rgba(73,155,234,1);
+background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(16,70,128,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(16,70,128,1)));
+background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(16,70,128,1) 100%);
+background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(16,70,128,1) 100%);
+background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(16,70,128,1) 100%);
+background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(16,70,128,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#104680', GradientType=1 );
+}
+
+img {
+	border-radius: 80px 80px 80px 80px;
+-moz-border-radius: 80px 80px 80px 80px;
+-webkit-border-radius: 80px 80px 80px 80px;
+border: 0px solid #000000;
+}
